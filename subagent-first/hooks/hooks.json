@@ -1,0 +1,16 @@
+{
+  "description": "SessionStart injection - puts the subagent-first rules in context at the start of every session.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/inject.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "useful-claude-skill",
+  "description": "Plugins that enforce workflow discipline in Claude Code sessions.",
+  "owner": {
+    "name": "giamat13"
+  },
+  "plugins": [
+    {
+      "name": "Giamat13",
+      "source": "./subagent-first",
+      "description": "Forces a delegate-first workflow on every session: ask questions when unclear, write a TODO list, explore the codebase with a subagent before editing, and hand isolated work to subagents."
+    }
+  ]
+}
