@@ -1,5 +1,5 @@
 {
-  "name": "Giamat13",
+  "name": "better-tool-use",
   "description": "Forces a delegate-first workflow on every session: ask questions when unclear, write a TODO list, explore the codebase with a subagent before editing, and hand isolated work to subagents.",
   "version": "1.0.0",
   "author": {

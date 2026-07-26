@@ -1,5 +1,5 @@
 {
-  "description": "SessionStart injection - puts the subagent-first rules in context at the start of every session.",
+  "description": "SessionStart injection - puts the better-tool-use rules in context at the start of every session.",
   "hooks": {
     "SessionStart": [
       {

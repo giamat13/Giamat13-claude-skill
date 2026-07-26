@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 // from the first turn of every session, instead of waiting for the model to
 // decide the skill description matches.
 const skill = fileURLToPath(
-  new URL("../skills/subagent-first/SKILL.md", import.meta.url),
+  new URL("../skills/better-tool-use/SKILL.md", import.meta.url),
 );
 
 const body = readFileSync(skill, "utf8").split(/^---$/m).slice(2).join("---");

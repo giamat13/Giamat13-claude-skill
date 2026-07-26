@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "Giamat13",
-      "source": "./subagent-first",
+      "name": "better-tool-use",
+      "source": "./better-tool-use",
       "description": "Forces a delegate-first workflow on every session: ask questions when unclear, write a TODO list, explore the codebase with a subagent before editing, and hand isolated work to subagents."
     }
   ]

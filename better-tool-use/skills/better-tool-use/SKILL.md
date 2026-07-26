@@ -1,9 +1,9 @@
 ---
-name: subagent-first
+name: better-tool-use
 description: Enforces a delegate-first workflow - clarify with questions when unclear or complex, write a TODO list, explore the codebase with a subagent before editing, and hand isolated work to subagents. Use at the START of ANY task involving code or files, including - write, add, create, implement, build, edit, change, update, modify, fix, debug, solve, refactor, rename, move, delete, migrate, review, audit, test, run, investigate, explain, find, search, understand, look at, check, why does, where is, how does, make it, set up, configure, install, upgrade. Use even when the task looks small or is a single file.
 ---
 
-# Subagent First
+# Better Tool Use
 
 Four rules, in order. Do not skip a rule because the task "looks small".
 
