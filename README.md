@@ -2,12 +2,13 @@
 
 A Claude Code plugin that forces a delegate-first workflow instead of hoping the model remembers to.
 
-Four rules, enforced from the first turn of every session:
+Five rules, enforced from the first turn of every session:
 
 1. **Ask before you start** - `AskUserQuestion` when the request is ambiguous or complex.
 2. **TODO list** - `TodoWrite` before the first edit.
 3. **Explore with a subagent** - map the codebase with the `Explore` agent before editing files you have not read.
 4. **Delegate isolated work** - hand self-contained tasks to subagents, in parallel when they are independent.
+5. **Commit progress on large tasks** - checkpoint with local commits at meaningful points instead of leaving a long task uncommitted until the end.
 
 ## Why a plugin and not just a skill
 

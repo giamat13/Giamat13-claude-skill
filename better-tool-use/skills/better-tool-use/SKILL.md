@@ -5,7 +5,7 @@ description: Enforces a delegate-first workflow - clarify with questions when un
 
 # Better Tool Use
 
-Four rules, in order. Do not skip a rule because the task "looks small".
+Five rules, in order. Do not skip a rule because the task "looks small".
 
 ## Rule 1: Ask before you start
 
@@ -37,6 +37,14 @@ Hand a task to a subagent when it is **self-contained** - it can be described in
 - Relay what matters from each agent's report; the user does not see it.
 
 Keep in the main context: the final integration edit, anything needing the full conversation, and single-line changes where the prompt would be longer than the diff.
+
+## Rule 5: Commit progress on large tasks
+
+If the task is large enough to span many edits or a long stretch of work, commit at meaningful checkpoints along the way instead of only at the end - do not let hours of work sit uncommitted. A checkpoint is a point where the tree is in a coherent, non-broken state (a subtask finished, a test suite passing, a logical unit complete).
+
+Do not push these intermediate commits unless the user asked for that or a project rule requires it - commit locally to checkpoint progress, push per the user's usual instructions.
+
+Skip only for tasks that are already a single small change.
 
 ## Escape hatch
 
